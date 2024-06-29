@@ -1,0 +1,208 @@
+
+  /* for navbar */
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 102%;
+    height: 70px;
+    background-color: rgb(245, 245, 245);
+    margin-left: -8px;
+    
+    margin-top: -8px;
+  }
+  
+  .navbar .left{
+    display: flex;
+    width: 50%;
+    margin: 10px;
+    left: 10px;
+    margin-left: 0px;
+    justify-content: space-evenly;
+   
+  }
+
+  .navbar .left ul{
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+    align-items: center;
+    margin-left: -97px;
+  }
+
+  .navbar .left ul li a {
+    color: black;  /* Change text color to black */
+    text-decoration: none;  /* Remove underline */
+}
+
+
+.navbar .left ul li{
+    list-style: none;
+    font-size:17px;
+}
+
+  .navbar .left img{
+    border-radius: 50%;
+    width: 50px;
+  margin-left: -50px;
+    
+  }
+ .adjust{
+    margin-left: -48px;
+   
+ }
+.nav-items{
+    margin-left: -60px;
+    
+}
+.navbar .right{
+    display: flex;
+    width: 50%;
+    color:invert;
+    justify-content: flex-end;
+    margin: 15px;
+}
+    
+  .navbar .right i {
+   
+    margin-left: 15px;
+    cursor: pointer;
+}
+.fa-magnifying-glass {
+    margin: 0 0.5rem; /* Add space on both sides */
+  }
+  
+  .fa-cart-shopping {
+    margin-left: 0.5rem; /* Add space to the left */
+  }
+  .increase{
+    max-width: 100%;
+
+  }
+
+
+
+
+/* main page csss */
+.container{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    margin-top: 50px;
+    
+    border-radius: 10px;
+
+}
+.image{
+    /* width: 300px;
+    height: 300px; */
+    /* margin: 20px; */
+    width: 30%;
+    /* border: 1px solid black; */
+    margin-left: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0
+    );
+    overflow: hidden;
+    position: relative;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.content{
+    width: 70%;
+    align-items: center;
+    padding: 80px;
+    color: white;
+}
+
+
+.team{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+  /* margin-top: 140px; */
+  /* padding: 40px; */
+}
+
+
+.begrond{
+  background: #03001e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+
+
+
+
+  /* for footer section */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(50, 50, 51);
+  }
+  
+  .foot-container1{
+    /* border: black 12px ; */
+    height: 300px;
+    background-color: rgb(50, 50, 51);
+    width: 50%;
+  }
+  
+  
+  .foot-container1 img{
+    width:30%;
+    height: 50%;
+    border-radius: 50%;
+    margin-top: 15px;
+  }
+  .foot-container1 h3{
+    color: rgb(211, 207, 207);
+  }
+  
+  
+  .foot-container2{
+   
+    height: 300px;
+   border: black ;
+   background-color: rgb(50, 50, 51);
+   width: 50%;
+   border-radius: 20px;
+  }
+  .lists{
+    color: rgb(212, 210, 210);
+    display: flex;
+    justify-content: space-around;
+  }
+  .list1{
+    margin-top: 15px;
+  }
+  
+  .list2{
+    margin-top: 15px;
+  }
+  .social-icons{
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+  .Footer{
+    background-color:rgb(50, 50, 51) ;
+   
+    margin-left: -10px;
+    margin-right: -8px;
+    margin-top: 35px;
+    margin-bottom: -11px
+  }

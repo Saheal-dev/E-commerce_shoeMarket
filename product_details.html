@@ -1,0 +1,205 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="product_details.css">
+</head>
+<body class="begrond">
+    
+    <!-- navbar section starts here -->
+   <section class="increase">
+    <div class="navbar">
+        <div class="left">
+            
+            <!-- logo image -->
+            <img
+            src="/internship_studio/assets/images/3d render.webp "alt="logo"/>
+            <!-- tab bars -->
+            <ul class="adjust">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shop_category.html">Category</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about_us.html">About Us </a>
+                </li>
+                <li class="">
+                  <a class="" href="contact_us.html">Contact Us </a>
+                </li>
+              </ul>
+             
+        </div>
+      
+        <div class="right">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+            <i class="fa-solid fa-cart-shopping fa-2x"></i>
+        </div>
+    </div>
+  </section>
+
+
+
+
+
+
+<!-- main page  -->
+
+    <center> <h2>Product Details</h2></center>
+     
+     <div class="details_main">
+         <div class="image">
+             <img src="/internship_studio/assets/images/matthew-hamilton-VGR_-NTYVZE-unsplash.jpg" alt="">
+         </div>
+         <div class="details_right">
+             <h3>Matthew Hamilton shoes VGR</h3>
+             <p>Price: $120</p>
+             <p>Brand: Matthew Hamilton</p>
+             <p>Color: Black</p>
+             <p>Size: 8</p>
+             <p>Material: Leather</p>
+             <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla a
+                 libero bibendum sodales. Cum sociis natoque penatibus et magnis dis
+                 parturient montes, nascetur ridiculus mus. Cras justo odio, dap
+                 ibus ac facilisis in, egestas eget quam. Cum sociis natoque
+                 penatibus et magnis dis parturient montes, nascetur ridiculus mus
+                 </p>
+                 <center><button class="add-to-cart-button" href="cart.html">Add to Cart</button></center>
+ 
+ 
+         </div>
+     </div>
+ 
+ </section>
+
+ <section>
+    <h2>Relative Products</h2>
+    <div class="cards">
+        <!-- card1 -->
+        <div class="card">
+           <img src="/internship_studio/assets/images/matthew-hamilton-VGR_-NTYVZE-unsplash.jpg" alt="card1">
+            <h3>Matthew Hamilton shoes VGR</h3>
+            <p>Price: $120</p>
+            <center><button class="add-to-cart-button" href="cart.html">Add to Cart</button></center>
+            </div>
+            
+            <!-- card2 -->
+            <div class="card">
+                <img src="/internship_studio/assets/images/matthew-hamilton-VGR_-NTYVZE-unsplash.jpg" alt="card1">
+                 <h3>Matthew Hamilton shoes VGR</h3>
+                 <p>Price: $1220</p>
+                 <center><button class="add-to-cart-button" href="cart.html">Add to Cart</button></center>
+                 </div>
+
+                 <!-- card3 -->
+                 <div class="card">
+                    <img src="/internship_studio/assets/images/matthew-hamilton-VGR_-NTYVZE-unsplash.jpg" alt="card1">
+                     <h3>Matthew Hamilton shoes VGR</h3>
+                     <p>Price: $1220</p>
+                     <center><button class="add-to-cart-button" href="cart.html">Add to Cart</button></center>
+                     </div>
+
+        </div>     
+    
+ </section>
+
+
+<!-- footer starts here -->
+<section class="Footer">
+    <div class="footer">
+      <div class="foot-container1">
+        <center>
+          <img
+            src="/internship_studio/assets/images/3d render.webp"
+            alt="logo image"
+          />
+        </center>
+        <center><h3>World's Best Shoe Market</h3></center>
+      </div>
+      <div class="foot-container2">
+        <div class="lists">
+          <div class="list1">
+            <ul>
+              <li>Quick Links</li>
+              <li>privacy policy</li>
+              <li>Terms & conditions</li>
+              <li>see more</li>
+            </ul>
+          </div>
+          <div class="list2">
+            <ul>
+              <li>get in touch</li>
+              <li><email class="com">shindesahil9104@gmail.com</email></li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/sahil-shinde-477a222a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                >Linked in</a>
+              </li>
+              <li>100 2045 560  </li>
+            </ul>
+          </div>
+        </div>
+        <div class="social-icons">
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-linkedin"></i> 
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+
+      <div class="scroller">
+        <div class="backtop">
+          <a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button">
+          <i class="fas fa-chevron-up text-dark"></i>
+          </a>
+          </div>
+          
+      </div>
+    </section>
+   
+
+
+
+
+
+
+ 
+ 
+ 
+ <script>
+ 
+ document.addEventListener('DOMContentLoaded', function() {
+     var addToCartButton = document.querySelector('.add-to-cart-button');
+ 
+     if (addToCartButton) {
+         addToCartButton.addEventListener('click', function() {
+             // Add to cart logic here (e.g., updating cart count, storing data)
+ 
+             // Redirect to cart page
+             window.location.href = 'cart.html';  // Replace with the actual cart page URL
+         });
+     } else {
+         console.error('Add to Cart button not found!');
+     }
+ });
+ 
+ 
+ // document.getElementsByClassName('add-to-cart-button').addEventListener('click', function() {
+     
+ //     console.log("button clicked")
+     
+ //     window.location.href = 'cart.html';  
+ // });
+ </script>
+ <script src="https://kit.fontawesome.com/8eb0ce6b3e.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+
+
+
+  body{
+    background: #03001e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+
+/* main page csss */
+.cart{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin: 40px;
+   height: 410px;
+   display: flex;
+  justify-content: center;
+  border-radius: 15px;
+
+
+}
+
+ .left{
+    width: 70%; 
+    height: 410px;
+   
+   /* padding-top: 10px; */
+    /* background-color: yellow; */
+    justify-content: space-around;
+}
+
+.extrakhoka{
+    width: 100%;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.details{
+    margin-left: 40px;
+}
+
+.hardjs{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    gap: 6px;
+    /* margin-top: 80px; */
+}
+.hardjs input{
+    height: auto;
+    width: 100%;
+}
+
+.right{
+    /* background-color: green; */
+    width: 30%; 
+    height: 410px;   
+    align-items: center;
+    border-left: 1px solid white;
+}
+.image{
+    margin-left: 10px;
+    width: 30%;
+    height: auto;
+}
+.image img{
+    width: 100%; /* Ensure the images fill the carousel's width */
+    height: 100px; /* Maintain the aspect ratio */
+    border-radius: 15px;
+    object-fit: cover
+}
+.right button{
+    width: 130px;
+    height: 35px;
+    margin: 20px;
+    border-radius: 8px;
+    border: none;
+}
+.right button:hover{
+    background-color: #f0ed27;
+    cursor: pointer;
+}
+
+
+
+
+
+

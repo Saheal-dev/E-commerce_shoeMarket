@@ -1,0 +1,273 @@
+
+
+  
+
+
+
+
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #03001e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Section title */
+.section_title h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+}
+
+/* Filters */
+.border-right {
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
+}
+
+.mb-small-5 {
+    margin-bottom: 1.5rem;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ddd;
+}
+
+.list-group-item {
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    background-color: #a2c2b5a9;  /*change*/
+}
+
+.form-control-range {
+    width: 100%;
+}
+
+/* Products */
+.single_product {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #1b2835;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.single_product:hover {
+    transform: scale(1.05);
+}
+
+.product_img {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.product_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.new_product .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    font-size: 0.75rem;
+}
+
+.product-caption {
+    padding: 1rem;
+}
+
+.product-ratting {
+    color: #ffc107;
+}
+
+.product-ratting .far {
+    color: #ddd;
+}
+
+.product-caption h5 {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.product-caption .price {
+    font-size: 1.25rem;
+    color: #28a745;
+}
+
+.mt-small-5 {
+    margin-top: 1.5rem;
+}
+
+.mb-small-5 {
+    margin-bottom: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .border-right {
+        border-right: none;
+    }
+
+    .single_product {
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+
+
+/* for navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 102%px;
+    height: 70px;
+    background-color: rgb(245, 245, 245);
+    margin-left: -8px;
+    margin-right: -25px;
+    margin-top: -8px;
+    margin-bottom: -7px;
+  }
+  
+  .navbar .left{
+    display: flex;
+    width: 50%;
+    margin: 10px;
+    left: 10px;
+    margin-left: 0px;
+    justify-content: space-evenly;
+   
+  }
+
+  .navbar .left ul{
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+    align-items: center;
+    margin-left: -97px;
+  }
+
+  .navbar .left ul li a {
+    color: black;  /* Change text color to black */
+    text-decoration: none;  /* Remove underline */
+}
+
+
+.navbar .left ul li{
+    list-style: none;
+    font-size:17px;
+}
+
+  .navbar .left img{
+    border-radius: 50%;
+    width: 50px;
+  margin-left: -50px;
+    
+  }
+ .adjust{
+    margin-left: -48px;
+   
+ }
+.nav-items{
+    margin-left: -60px;
+    
+}
+.navbar .right{
+    display: flex;
+    width: 50%;
+  
+    justify-content: flex-end;
+    margin: 15px;
+}
+    
+  .navbar .right i {
+   
+    margin-left: 15px;
+    cursor: pointer;
+}
+.fa-magnifying-glass {
+    margin: 0 0.5rem; /* Add space on both sides */
+  }
+  
+  .fa-cart-shopping {
+    margin-left: 0.5rem; /* Add space to the left */
+  }
+
+
+  /* for footer section */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(50, 50, 51);
+  }
+  
+  .foot-container1{
+    /* border: black 12px ; */
+    height: 300px;
+    background-color: rgb(50, 50, 51);
+    width: 50%;
+  }
+  
+  
+  .foot-container1 img{
+    width:30%;
+    height: 50%;
+    border-radius: 50%;
+    margin-top: 15px;
+  }
+  .foot-container1 h3{
+    color: rgb(211, 207, 207);
+  }
+  
+  
+  .foot-container2{
+   
+    height: 300px;
+   border: black ;
+   background-color: rgb(50, 50, 51);
+   width: 50%;
+   border-radius: 20px;
+  }
+  .lists{
+    color: rgb(212, 210, 210);
+    display: flex;
+    justify-content: space-around;
+  }
+  .list1{
+    margin-top: 15px;
+  }
+  
+  .list2{
+    margin-top: 15px;
+  }
+  .social-icons{
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+  .Footer{
+    background-color:rgb(50, 50, 51) ;
+   
+    margin-left: -10px;
+    margin-right: -8px;
+    margin-top: 35px;
+    margin-bottom: -11px
+  }

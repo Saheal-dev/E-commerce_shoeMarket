@@ -1,0 +1,200 @@
+
+
+
+<!-- navbar -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="category.css">
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/8eb0ce6b3e.js" crossorigin="anonymous"></script>
+     <!-- navbar section starts here -->
+     <div class="navbar">
+        <div class="left">
+            
+            <!-- logo image -->
+            <img
+            src="/internship_studio/assets/images/3d render.webp "alt="logo"/>
+            <!-- tab bars -->
+            <ul class="adjust">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="main.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product_details.html">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shop_category.html">Category</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about_us.html">About Us </a>
+                </li>
+                <li class="">
+                  <a class="" href="contact_us.html">Contact Us </a>
+                </li>
+              </ul>
+             
+        </div>
+       
+       
+        <div class="right">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+            <i class="fa-solid fa-cart-shopping fa-2x"></i>
+        </div>
+    </div>
+
+    <!-- main shop category page -->
+
+<section class="products py-5 my-5" id="products">
+    <div class="container">
+        <div class="section_title text-center mb-5">
+           <center><h1 class="text-capitalize">Products</h1></center> 
+        </div>
+        <div class="row">
+            <div class="col-md-3 border-right mb-small-5">
+                <h3 class="mb-5 border-bottom">Filters</h3>
+                <div class="mb-5" style="background-color: white; border-radius: 15px;">
+                   <center> <label style="margin: 13px;"><b>CATEGORY</b></label></center>
+                    <ul class="list-group">
+                        <li class="list-group-item">Category 1</li>
+                        <li class="list-group-item">Category 2</li>
+                        <li class="list-group-item">Category 3</li>
+                        <li class="list-group-item">Category 4</li>
+                        <li class="list-group-item">Category 5</li>
+                    </ul>
+                </div>
+                <div>
+                    <form>
+                        <div class="form-group">
+                            <label><b>Price</b></label>
+                            <input type="range" min="100" max="1000" step="100" class="form-control-range">
+                        </div>
+                    </form>
+                    <div class="d-flex justify-content-between">
+                        <label>₹100</label>
+                        <label>₹1000</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="row mb-5">
+                    <div class="col-md-4 col-12">
+                        <div class="single_product shadow text-center p-1">
+                            <div class="product_img">
+                                <a href="product_details.html">
+                                    <img src="/internship_studio/assets/images/nike premiu.avif" class="img img-fluid" alt="">
+                                </a>
+                            </div>
+                            <div class="product-caption my-3">
+                                <div class="product-ratting">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <h5><a href="product_details.html" style="text-decoration: none; color: white;">Brand shoes with details</a></h5>
+                                <div class="price">
+                                    <b><span class="mr-1">₹</span><span>400</span></b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat the product block as needed -->
+                    <!-- Example for additional products -->
+                    <div class="col-md-4 col-12">
+                        <div class="single_product shadow text-center p-1">
+                            <div class="product_img">
+                                <a href="product_details.html">
+                                    <img src="/internship_studio/assets/images/nike premiu.avif" class="img img-fluid" alt="">
+                                </a>
+                                <div class="new_product">
+                                    <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                                </div>
+                            </div>
+                            <div class="product-caption my-3">
+                                <div class="product-ratting">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <h5><a href="product_details.html" style="text-decoration: none; color: white;">Brand shoes with details</a></h5>
+                                <div class="price">
+                                    <b><span class="mr-1">₹</span><span>400</span></b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more products as necessary -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- footer starts here -->
+<section class="Footer">
+    <div class="footer">
+      <div class="foot-container1">
+        <center>
+          <img
+            src="/internship_studio/assets/images/3d render.webp"
+            alt="logo image"
+          />
+        </center>
+        <center><h3>World's Best Shoe Market</h3></center>
+      </div>
+      <div class="foot-container2">
+        <div class="lists">
+          <div class="list1">
+            <ul>
+              <li>Quick Links</li>
+              <li>privacy policy</li>
+              <li>Terms & conditions</li>
+              <li>see more</li>
+            </ul>
+          </div>
+          <div class="list2">
+            <ul>
+              <li>get in touch</li>
+              <li><email class="com">shindesahil9104@gmail.com</email></li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/sahil-shinde-477a222a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                >Linked in</a>
+              </li>
+              <li>100 2045 560  </li>
+            </ul>
+          </div>
+        </div>
+        <div class="social-icons">
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-linkedin"></i> 
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+
+      <div class="scroller">
+        <div class="backtop">
+          <a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button">
+          <i class="fas fa-chevron-up text-dark"></i>
+          </a>
+          </div>
+          
+      </div>
+    </section>
+</body>
+</html>

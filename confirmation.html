@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: #70e1f5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        .confirmed{
+            margin: auto;
+            width: 100%;
+            height: 450px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center ;
+            text-align: center;
+            
+        }
+         img{
+            width: 450px;
+            height: 600px;
+            object-fit: cover;
+            margin-top: 50%;
+            border-radius: 15px;
+            text-shadow: black;
+        }
+        .right{
+          margin-top: 50px;
+          /* font-size: 46px; */
+        }
+        .right button{
+            height: 50px;
+            width: 90px;
+            background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+
+            font-size: large;
+            color: white;
+            border: none;
+            border-radius: 10px;
+        }
+        .right button:hover{
+            cursor: pointer;
+            border: 1px solid black;
+            transform: scale(1.1);
+            transition: ease-in-out 0.5s;
+        }
+    </style>
+</head>
+<body>
+    
+    <section class="confirmed">
+    <div class="left">
+        <img src="/internship_studio/assets/images/3582346.jpg" alt="confirmed">
+    </div>
+    <div class="right">
+        <h1 style="font-size: 56px;">Thank you for your order!</h1>
+        <p>(Confirmation mail will be sent on your email)</p>
+        <p>Product Id : 12414d23y0d2</p>
+        <p>Product Code : 4561</p>
+        <button id="home">RETURN</button>
+    </div>
+    
+    
+    
+    
+    
+    </section>
+</body>
+ <!-- Custom JavaScript -->
+ <script>
+    document.addEventListener('DOMContentLoaded', function() {
+  var homeButton = document.getElementById('home');
+
+  if (homeButton) {
+      homeButton.addEventListener('click', function() {
+          // Redirect to order confirmed page
+          console.log("done")
+          window.location.href = 'index.html';  // Replace with the actual order confirmed page URL
+      });
+  } else {
+      console.error('confirmed button not found!');
+  }
+});
+</script>
+
+
+</html>
